@@ -2,12 +2,14 @@ package pe.edu.tecsup.productosapi.services;
 
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import pe.edu.tecsup.productosapi.entities.Producto;
 import pe.edu.tecsup.productosapi.repositories.ProductoRepository;
 
 import java.util.List;
 
 @Service
+@Transactional
 public class ProductoServiceImpl implements ProductoService {
 
     private ProductoRepository productoRepository;
