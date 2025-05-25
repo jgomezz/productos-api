@@ -13,4 +13,4 @@ spring:
       max-request-size: 10MB
 app:
   storage:
-    path: /Users/jgomez/var/data/
+    path: /Users/jgomez/var/data3/
